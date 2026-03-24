@@ -1,43 +1,55 @@
-📊 Customer Churn Prediction App (Streamlit)
-🚀 Overview
+# 📊 Customer Churn Prediction App (Streamlit)
 
-This project is a Machine Learning-powered web application built using Streamlit that predicts whether a customer is likely to churn or not. It uses a trained model based on customer data to provide real-time predictions through an interactive UI.
+## 🚀 Overview
+This project is a Machine Learning-powered web application built using Streamlit that predicts whether a customer is likely to churn or not. It uses a trained model to provide real-time predictions through an interactive UI.
 
-🧠 Features
-Predict customer churn instantly
-User-friendly web interface with Streamlit
-Pre-trained machine learning model (chrun_model.pkl)
-Data preprocessing and feature handling included
-Easy to deploy and run locally
-📁 Project Structure
+---
+
+## 🧠 Features
+- Predict customer churn instantly  
+- User-friendly interface with Streamlit  
+- Pre-trained ML model included  
+- Data preprocessing & feature handling  
+- Easy to run and deploy  
+
+---
+
+## 📁 Project Structure
+
 Streamlit Deployment/
 │
-├── app.py                      # Streamlit web application
-├── chrun_model.pkl             # Trained ML model
-├── churn.ipynb                # Jupyter Notebook (EDA + Model Training)
-├── Churn_Modelling.xlsx       # Dataset
-├── requirements.txt           # Required Python libraries
-└── README.md                  # Project documentation
-⚙️ Installation
-1. Clone the repository
+├── app.py
+├── churn_model.pkl
+├── churn.ipynb
+├── Churn_Modelling.xlsx
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+```bash
 git clone <your-repo-link>
-cd Streamlit Deployment
-2. Create virtual environment (optional but recommended)
+cd Streamlit-Deployment
+2. Create virtual environment (optional)
 python -m venv venv
 venv\Scripts\activate   # Windows
 3. Install dependencies
 pip install -r requirements.txt
-▶️ Run the Application
+▶️ Run the App
 streamlit run app.py
 
-Then open your browser at:
+Open in browser:
 
 http://localhost:8501
 📊 Model Details
-Algorithm used: (Add your model name, e.g., Logistic Regression / Random Forest)
+Algorithm: Random Forest / Logistic Regression (update as per your model)
 Trained on customer dataset
-Includes preprocessing and feature engineering
-📌 Input Features (Example)
+Includes preprocessing & feature engineering
+📌 Input Features
 Credit Score
 Age
 Tenure
@@ -48,18 +60,18 @@ Is Active Member
 Estimated Salary
 🎯 Output
 Churn Prediction: Yes / No
-Helps businesses identify customers likely to leave
-🛠️ Technologies Used
+Helps businesses identify at-risk customers
+🛠️ Tech Stack
 Python
 Streamlit
 Scikit-learn
 Pandas
 NumPy
 📈 Future Improvements
-Add model performance metrics on UI
-Deploy on cloud (Streamlit Cloud / AWS / Render)
-Improve UI/UX design
-Add real-time database integration
+Add model performance metrics
+Deploy on cloud
+Improve UI/UX
+Add database integration
 🤝 Contributing
 
-Feel free to fork this repo and improve it. Contributions are welcome!
+Feel free to fork this repository and contribute.
